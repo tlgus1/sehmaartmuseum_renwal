@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="common.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="common.js" defer></script>
+</head>
+
+<body>
+  <div class="toggle">
+    <ul class="tog_list">
+      <li class="tog_sub">
+        <p>미술관 소개</p>
+        <ul>
+          <li>미술관 안내</li>
+          <li>관람 안내</li>
+          <li>미술관 구조</li>
+          <li>오시는 길</li>
+        </ul>
+      </li>
+      <li class="tog_sub">
+        <p>전시</p>
+        <ul>
+          <li>현재전시</li>
+          <li>예정전시</li>
+          <li>지난전시</li>
+          <li>온라인전시</li>
+          <li>버추얼갤러리</li>
+        </ul>
+      </li>
+      <li class="tog_sub">
+        <p>교육</p>
+        <ul>
+          <li>현재교육</li>
+          <li>지난교육</li>
+          <li>교육영상</li>
+        </ul>
+      </li>
+      <li class="tog_sub">
+        <p>쉐마국제미술상</p>
+        <ul>
+          <li>수상 작가</li>
+        </ul>
+      </li>
+      <li class="tog_sub">
+        <p>소식</p>
+        <ul>
+          <li>쉐마 아트레터</li>
+          <li>미술관소식</li>
+          <li>언론보도</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <header>
+    <h1><img src="./IMG/img_source/logo/logo_art.png" alt=""></h1>
+    <nav class="con">
+      <ul class="gnb">
+        <li>
+          <a href="#">미술관소개</a>
+          <ul class="sub">
+            <li>미술관 안내</li>
+            <li>관람안내</li>
+            <li>미술관 구조</li>
+            <li>오시는 길</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">전시</a>
+          <ul class="sub">
+            <li>현재전시</li>
+            <li>예정전시</li>
+            <li>지난전시</li>
+            <li>온라인전시</li>
+            <li>버추얼갤러리</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">교육</a>
+          <ul class="sub">
+            <li>현재교육</li>
+            <li>지난교육</li>
+            <li>교육영상</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">쉐마국제미술상</a>
+          <ul class="sub">
+            <li>수상 작가</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">소식</a>
+          <ul class="sub">
+            <li>쉐마<br>아트레터</li>
+            <li>미술관소식</li>
+            <li>언론보도</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+    <div class="token">
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#"><i class="fa-solid fa-bars"></i></a>
+    </div>
+  </header>
+  <section class="sec1">
+
+    <!-- pc  -->
+    <div class="swiper-container sec1">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="./IMG/img_source/back/slide_01.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./IMG/img_source/back/slide2-80.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./IMG/img_source/back/slide3-80.jpg" alt=""></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination sec1"></div>
+    </div>
+
+    <!-- mobile -->
+    <div class="swiper-container mo">
+      <div class="swiper-wrapper mo">
+        <div class="swiper-slide mo"><img src="./IMG/img_source/back/slide_mo1.jpg" alt=""></div>
+        <div class="swiper-slide mo"><img src="./IMG/img_source/back/slide_mo2-80.jpg" alt=""></div>
+        <div class="swiper-slide mo"><img src="./IMG/img_source/back/slide_mo3-80.jpg" alt=""></div>
+      </div>
+      <div class="swiper-pagination mo"></div>
+    </div>
+
+  </section>
+
+  <section class="sec2 max">
+    <h2>
+      <strong>전시 안내</strong>
+      <p>지금 쉐마미술관에서 만날 수 있는<br> 전시를 알아보세요.</p>
+    </h2>
+    <div class="swiper mySwiper sec2">
+      <div class="swiper-wrapper sec2">
+        <div class="swiper-slide sec2">
+          <img src="./IMG/img_source/back/sourece.JPG" alt="">
+          <div class="sec2_txt 1">
+            <p>기획전시</p>
+            <strong>2022 후기 에스펙트전<br><span>새로운 미술의 변종과 변이</span></strong>
+            <p>이 전시는 청주 지역의 현대미술을 선도하는 미술 단체로 가장 대표적인 그룹 '에스펙트 현대미술동인회'가 주관하는 전시로, '새로운 미술의 변종과 변이'의 주제 전시이다. 후기 에스펙트
+              현대미술 동이노히 15명의 작가는 급격히 변화하는 자연과의 공존, 현재의 문제와 현상을 직시하며 코로나-19의 그늘에 가린 지난 시간을 극복하고 받아들여 각자의 현실에 결합해 출구를
+              찾아가고자 한다</p>
+          </div>
+        </div>
+        <div class="swiper-slide sec2">
+          <img src="./IMG/img_source/back/sourece01.JPG" alt="">
+          <div class="sec2_txt 2">
+            <p>기획전시</p>
+            <strong>2022 쉐마미술관 기획전<br><span>일상이라는 몸</span></strong>
+            <p>일상은 예술가에게는 위대한 재료 그릇이자 예술가를 구성하는 몸 자체이다. 일상의 단면과 예술가적 시선은 그를 둘러싼 환경과 그의 의식이 결합한 의식의 창작품을 만들어낸다. 그것은 정보와
+              정서를 포함한 세계를 만들어내게 되는데 이것을 통해 관객은 특정한 분위기와 시선, 작가가 의도하는 주제 등을 유추할 수 있다. 쉐마미술관은 일상을 소재로 자신의 정서적 내면을 그림으로
+              다잡아가는 젊은 예술가들의 시선에 주목하려 한다.</p>
+          </div>
+        </div>
+        <div class="swiper-slide sec2">
+          <img src="./IMG/img_source/back/sourece02.JPG" alt="">
+          <div class="sec2_txt 3">
+            <p>기획전시</p>
+            <strong>쉐마미술관 기획 초대전<br><span>이명화 기획초대전</span></strong>
+            <p>세계적인 실존주의 철학자 장 폴 사르트르는 “인간은 태어나서 삶과 죽음 사이의 선택의 연속이다.”라고 하였다. 인간은 자연의 일부로 존재한다. 결국 인간은 자연 속에서의 생명의 탄생과 소멸
+              속에 순응하면서 살아가게 된다. 또한 작가는 작품 속에 자신의 생각을 용해시키고 작품의 기법과 형식으로 그 해답을 풀어가게 함으로써 하나의 작품을 탄생하게 한다.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination pag2"></div>
+    </div>
+    <div class="swiper-button-next next2"></div>
+    <div class="swiper-button-prev prev2"></div>
+  </section>
+
+  <section class="sec3 max">
+    <h2 class="sec3_h2">
+      <strong>버츄얼 갤러리</strong>
+      <p>인터넷에서만 만날 수 있는 쉐마미술관만의<br> 특별한 전시회를 만나보세요.</p>
+    </h2>
+    <ul class="sec3_list">
+      <li>
+        <a href="">스튜디오</a>
+        <img src="./IMG/img_source/back/visual01-80.jpg" alt="">
+      </li>
+      <li>
+        <a href="">다시 대화하는 풍토</a>
+        <img src="./IMG/img_source/back/visual02-80.jpg" alt="">
+      </li>
+      <li>
+        <a href="">일상이라는 몸</a>
+        <img src="./IMG/img_source/back/visual03-80.jpg" alt="">
+      </li>
+      <li>
+        <a href="">국제 미술의 경계와 혼돈</a>
+        <img src="./IMG/img_source/back/visual04-80.jpg" alt="">
+      </li>
+    </ul>
+  </section>
+  <section class="sec4">
+    <div class="sec4_box">
+      <p>
+        <span>쉐마미술관의 새로운 전시와 참여 프로그램 내용을 알려드립니다.</span>
+        <strong>쉐마 아트레터를 받아보세요.</strong>
+      </p>
+      <button class="sec4_btn">신청하기</button>
+    </div>
+  </section>
+
+  <section class="sec5">
+    <h2 class="sec5_h2 max">
+      <strong>전시 영상</strong>
+      <p>영상속에서만 만날 수 있는 미술관을<br>즐겨보세요.</p>
+    </h2>
+    <div class="wrap max">
+      <div class="sec5_txt">
+        <img src="./IMG/img_source/icon/youtube_logo.png" alt="">
+        <p>쉐마미술관 유튜브</p>
+        <button>바로가기</button>
+      </div>
+      <!-- swiper_sec5 -->
+      <div class="swiper mySwiper sec5">
+        <div class="swiper-wrapper sec5">
+          <div class="swiper-slide sec5">
+            <div class="slide_inner">
+              <img src="./IMG/img_source/back/video_01.JPG" alt="">
+              <p class="sec5_title">
+                <strong>불안정한 가능성</strong>
+                <span>+</span>
+              </p>
+              <p>가능성이란 언제까지고 흔들리고 마모되는 것이므로</p>
+            </div>
+          </div>
+          <div class="swiper-slide sec5">
+            <div class="slide_inner">
+              <img src="./IMG/img_source/back/video_02.JPG" alt="">
+              <p class="sec5_title">
+                <strong>궤적들</strong>
+                <span>+</span>
+              </p>
+              <p>모든 것은 움직임-운동이라는 테마로 나를,세계를 진동시켜</p>
+            </div>
+          </div>
+          <div class="swiper-slide sec5">
+            <div class="slide_inner">
+              <img src="./IMG/img_source/back/video_03.JPG" alt="">
+              <p class="sec5_title">
+                <strong>국제 미술의 경계와 혼돈</strong>
+                <span>+</span>
+              </p>
+              <p>혼란과 시간선의 끝에서 무엇도 알 수 없는 것이 당연할 터.</p>
+            </div>
+          </div>
+          <div class="swiper-slide sec5">
+            <div class="slide_inner">
+              <img src="./IMG/img_source/back/video_04.JPG" alt="">
+              <p class="sec5_title">
+                <strong>몸 이후의 창신</strong>
+                <span>+</span>
+              </p>
+              <p>그러니 몸은 제약에 불과하다. 두지 말고 날아오르라.</p>
+            </div>
+          </div>
+          <div class="swiper-slide sec5">
+            <div class="slide_inner">
+              <img src="./IMG/img_source/back/video_05.JPG" alt="">
+              <p class="sec5_title">
+                <strong>토끼 추격자</strong>
+                <span>+</span>
+              </p>
+              <p>좇는다면, 그것이야말로 가능성이다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next next5"></div>
+      <div class="swiper-button-prev prev5"></div>
+    </div>
+  </section>
+
+  <section class="sec6 max">
+    <h2 class="sec6_h2">
+      <strong>버츄얼 갤러리</strong>
+      <p>인터넷에서만 만날 수 있는 쉐마미술관만의<br> 특별한 전시회를 만나보세요.</p>
+    </h2>
+    <div class="sec6_list">
+      <ul class="sec6_tab">
+        <li class="on" data-tab="tab-1">공지사항</li>
+        <li data-id="tab-2">언론보도</li>
+        <li data-id="tab-3">아트레터</li>
+        <li data-id="tab-4">SNS</li>
+      </ul>
+      <ul class="sec6_noti on" id="tab-1">
+        <li>
+          <p>2022 하절기 쉐마미술관 운영시간 안내</p>
+          <p>2022-06-20</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 문화예술기관 연수단원(인턴)'모집 공고</p>
+          <p>2022-06-10</p>
+        </li>
+        <li>
+          <p>2022 유아문화예술교육 '조각주머니' 모집 공고</p>
+          <p>2022-05-27</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 큐레이터' 모집 공고(2차)</p>
+          <p>2022-05-20</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 예비학예인력' 모집 공고</p>
+          <p>2022-05-18</p>
+        </li>
+      </ul>
+      <ul class="sec6_noti" id="tab-2">
+        <li>
+          <p>2022 하절기 쉐마미술관 운영시간 안내</p>
+          <p>2022-06-20</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 문화예술기관 연수단원(인턴)'모집 공고</p>
+          <p>2022-06-10</p>
+        </li>
+        <li>
+          <p>2022 유아문화예술교육 '조각주머니' 모집 공고</p>
+          <p>2022-05-27</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 큐레이터' 모집 공고(2차)</p>
+          <p>2022-05-20</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 큐레이터' 모집 공고(2차)</p>
+          <p>2022-05-20</p>
+        </li>
+      </ul>
+      <ul class="sec6_noti" id="tab-3">
+        <li>
+          <p>2022 하절기 쉐마미술관 운영시간 안내</p>
+          <p>2022-06-20</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 문화예술기관 연수단원(인턴)'모집 공고</p>
+          <p>2022-06-10</p>
+        </li>
+        <li>
+          <p>2022 유아문화예술교육 '조각주머니' 모집 공고</p>
+          <p>2022-05-27</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 큐레이터' 모집 공고(2차)</p>
+          <p>2022-05-20</p>
+        </li>
+      </ul>
+      <ul class="sec6_noti" id="tab-4">
+        <li>
+            <p>2022 하절기 쉐마미술관 운영시간 안내</p>
+            <p>2022-06-20</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 문화예술기관 연수단원(인턴)'모집 공고</p>
+          <p>2022-06-10</p>
+        </li>
+        <li>
+          <p>2022 유아문화예술교육 '조각주머니' 모집 공고</p>
+          <p>2022-05-27</p>
+        </li>
+        <li>
+          <p>쉐마미술관 '2022 큐레이터' 모집 공고(2차)</p>
+          <p>2022-05-20</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="wrap max">
+      <div class="fot_logo">
+        <img src="./IMG/img_source/logo/logo_art.png" alt="">
+        <div class="fot_search"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </div>
+      <ul class="fot_list">
+        <li>이용약관</li>
+        <li>개인정보취급방침</li>
+        <li>이메일무단수집거부</li>
+        <li>미술관 오시는 길</li>
+      </ul>
+      <div class="fot_add">
+        <p>주소 | 충북 청주시 청원구 내수읍 내수로 241</p>
+        <p>T | 043-221-3269 E | schemaartmuseum@gmail.com</p>
+        <p>충청북도 등록 제 2011-1호 1종 미술관</p>
+      </div>
+      <div class="fot_sns">
+        <span>Copyright@Schema Art Museum All Rights Reserved</span>
+        <ul>
+          <li><img src="./IMG/img_source/icon/facebook-app-symbol.png" alt=""></li>
+          <li><img src="./IMG/img_source/icon/twitter.png" alt=""></li>
+          <li><img src="./IMG/img_source/icon/youtube-.png" alt=""></li>
+          <li><img src="./IMG/img_source/icon/-.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
