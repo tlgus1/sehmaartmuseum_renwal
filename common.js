@@ -50,15 +50,15 @@ var swiper = new Swiper(".mySwiper.sec5", {
 
 $(function(){
   $('.sec6_tab li').click(function(){
+    let idx = $(this).index()
 
-    $('.sec6_tab li').removeClass('on');
-    $('.sec6_noti').removeClass('on')
+    $('.sec6_noti').hide().removeClass('on')
+    $('.sec6_noti').eq(idx).show().addClass('on')
 
+    $('.sec6_tab li').removeClass('on')
     $(this).addClass('on')
-    $("#"+$(this).data('id')).addClass('on');
   })
 })
-
 
 
 let menu2 = ['01/', '02/', '03/']
@@ -79,8 +79,21 @@ let mySwiper2 = new Swiper('.swiper-container.mo', {
   },
 })
 
+// toggle
+
 $(function(){
-  $('.fa-solid fa-bars').click(function(){
-    $('.toggle').fadetoggle()
+  $('.bar').click(function(){
+    $('html,body').css('overflow','hidden')
+    $('.toggle_back').fadeToggle(500)
+    $('.toggle').fadeToggle(500);
+  })
+
+  $('.x_btn , .toggle_back').click(function(){
+    $('.toggle_back').fadeToggle(500)
+    $('.toggle').fadeToggle(500);
+    $('html,body').css('overflow','scroll')
   })
 })
+
+
+// scrollblock
